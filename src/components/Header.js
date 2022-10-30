@@ -42,13 +42,13 @@ const Container = styled.div`
   position: fixed;
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 25px;
   top: 0;
   left: 0;
   right: 0;
   justify-content: space-between;
   z-index: 1;
-  margin-top: 5px;
+  margin-top: 15px;
 
   img {
     margin-top: 30px;
@@ -71,6 +71,7 @@ const Container = styled.div`
 const RightMenu = styled.div`
   display: inline-flex;
   line-height: 1.35;
+
   p {
     display: flex;
     flex-direction: l;
@@ -105,6 +106,7 @@ const BurgerNav = styled.div`
   transform: ${(props) => (props.show ? 'translateX(0)' : 'translate(100%)')};
   transition: transform 0.2s;
   background-color: #535259;
+
   @media screen and (max-width: 900px) {
     width: 150px;
   }
@@ -130,3 +132,4 @@ const CloseWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
 `;
+
