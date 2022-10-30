@@ -34,11 +34,12 @@ function Contacts() {
 export default Contacts;
 
 const Content = styled.div`
-  text-align: center;
   display: flex;
-  margin-top: 50rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rem;
   @media screen and (max-width: 550px) {
-    margin-top: 30rem;
+    margin-top: 15rem;
   }
 
   li {
@@ -52,7 +53,7 @@ const Content = styled.div`
       font-size: 45px;
     }
     @media screen and (max-width: 550px) {
-      font-size: 32px;
+      font-size: 30px;
     }
   }
   span:hover {
