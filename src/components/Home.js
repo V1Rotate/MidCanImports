@@ -29,6 +29,8 @@ function Home() {
 
 export default Home;
 
-const Container = styled.div`
-   ;
+const Container = styled.div`   
+  padding: 0px;
+  margin: 0px;
 `;
+
