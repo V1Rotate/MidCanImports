@@ -37,6 +37,7 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center; //horizontal
   background-image: ${(props) => `url("/images/${props.bgImage}")`};
+  overflow: hidden;
 `;
 
 const ItemText = styled.div`
